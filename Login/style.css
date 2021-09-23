@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.titulo{
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    left: 28%;
+}
+.texto_mensaje {
+    font-size: 16px;
+}
+
+.mensaje_incorrecto {
+    color: red;
+}
+
+.mensaje_correcto {
+    color: green;
+}
+.contenido{
+    border-radius: 35px;
+    backdrop-filter: blur(200px) brightness(1.9);
+    width: 60%;
+    height: 500px !important;
+    padding: 9%;
+    margin-top: 100px;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+button{
+    margin-top: 5px;
+    color: black;
+    position: relative;
+    left: 40%;
+    font-style: oblique;
+    text-decoration-style: solid;
+}
